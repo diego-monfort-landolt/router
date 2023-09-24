@@ -19,6 +19,9 @@ header {
   justify-content: space-between;
   padding: 16px;
   background-color: #000;
+  width: 100%;
+  opacity: .9;
+  position: fixed;
  
 }
 .container-logo {
