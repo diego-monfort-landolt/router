@@ -14,8 +14,8 @@ function App() {
     <>
       <header>
         <div className="container-logo">
-         <Link to='/home'><img src={header} alt="logo" /></Link> 
-        <Link to='/home'> <h1>DiegoDev</h1></Link> 
+          <Link to='/home'><img src={header} alt="logo" /></Link>
+          <Link to='/home'> <h1>DiegoDev</h1></Link>
         </div>
         <nav>
           <li><Link to="/home">Home</Link></li>
