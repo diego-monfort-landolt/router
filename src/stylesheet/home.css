@@ -13,7 +13,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: transparent;
+  background-color: #0a06f352;
+  padding: 25px;
+  border-radius: 12px 0 12px 0;
+  box-shadow: 0 0 17px red;
+  border-bottom: 1px solid red;
+
 
 }
 
@@ -30,15 +35,17 @@
 
 h2,
 h3 {
-  border-bottom: 1px solid red;
+  
   letter-spacing: 4px;
   font-style: italic;
   padding: 5px;
-  color: black;
   letter-spacing: 4px;
   background-color: transparent;
 
 
+}
+.content, .under, .ober {
+  border-bottom: 1px solid red;
 }
 
 .git-btn {
@@ -49,5 +56,10 @@ h3 {
   color: red;
   position: absolute;
   border-bottom: 1px solid red;
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 1px;
+  right: 50%;
+  box-shadow: 0 0 15px red;
 
 }

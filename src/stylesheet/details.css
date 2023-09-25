@@ -1,0 +1,11 @@
+.Section-details {
+  width: 100%;
+  padding: 20px;
+ background-color:red;
+ box-shadow: 5px 5px 15px #000;
+ margin-bottom: 20px;
+
+}
+.title {
+  text-align: center;
+}
