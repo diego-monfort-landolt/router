@@ -71,7 +71,7 @@ a {
   margin-right: 10px;
   text-decoration: none;
   color: #fff;
-  background-color: #000;
+  
 }
 
 .menu-links:hover {
@@ -115,7 +115,6 @@ a {
     margin-right: 5px;
     font-style: none;
     color: #fff;
-    border-left: 1px solid #fff;
     padding: 5px;
     cursor: pointer;
   }
