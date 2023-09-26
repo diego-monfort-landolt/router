@@ -18,8 +18,8 @@ function App() {
           <Link to='/home'> <h1>DiegoDev</h1></Link>
         </div>
         <nav>
-          <li><Link to="/home">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
+          <li ><Link className="menu-links" to="/home">Home</Link></li>
+          <li ><Link className="menu-links" to="/about">About</Link></li>
         </nav>
       </header>
       <Routes>

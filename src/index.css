@@ -73,9 +73,11 @@ a {
   color: #fff;
   background-color: #000;
 }
-a:hover {
+
+.menu-links:hover {
   border-bottom: 1px solid #fff;
 }
+
 
 @media (max-width: 468px) {
   .container-logo h1 {

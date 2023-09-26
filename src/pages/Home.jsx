@@ -7,8 +7,6 @@ import { AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion"
 
 
-
-
 const Home = () => {
   return (
     <>
