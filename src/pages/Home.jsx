@@ -5,6 +5,7 @@ import { AiOutlineCode } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion"
+import Details from './Details';
 
 
 const Home = () => {
@@ -32,6 +33,7 @@ const Home = () => {
           >Hey there...</motion.h2>
         </div>
         </div>
+        <Details />
 
 
         
