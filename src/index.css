@@ -79,7 +79,8 @@ a {
 }
 
 
-@media (max-width: 468px) {
+@media (max-width: 418px) {
+ 
   .container-logo h1 {
     color: #fff;
     letter-spacing: 2px;
@@ -102,7 +103,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    width: 100%;
+    padding-right: 20px;
+   
    
   }
   nav li{
