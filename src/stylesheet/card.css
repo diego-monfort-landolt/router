@@ -1,1 +1,38 @@
+.cont-dragcard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  min-width: 40%;
+  min-height: 350px;
+  border: 1px solid red;
+  margin: 40px;
+  background-repeat: none;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 12px;
+  border: 1px solid orange;
+  box-shadow: 1px 5px 17px red;
+  margin: 40px 50px 30px 50px;
+  background-color: #000;
 
+}
+.cont-dragcard h3, p{
+  padding: 15px 30px ;
+  text-wrap: wrap;
+} 
+
+.dragcard {
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-image: url(../images/imag-3.jpg);
+  background-position: center;
+  object-fit: cover;
+  border-radius: 20%;
+  cursor: grab;
+  opacity: .9;
+  box-shadow: 1px 5px 15px #000;
+
+}
