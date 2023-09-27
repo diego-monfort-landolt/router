@@ -6,7 +6,6 @@ import image from '../images/assets'
 
 
 
-
 const Details = () => {
   const [width, setWidth] = useState(0);
 
@@ -26,6 +25,7 @@ const Details = () => {
       <div className='container-details'>
 
         <motion.h4
+        className='h4title'
           animate={{ x: [10, 350, 170], opacity: 3, scale: 1 }}
           initial={{ opacity: 0, scale: 0.5 }}
         >Gallery</motion.h4>
