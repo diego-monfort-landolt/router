@@ -75,3 +75,19 @@ h3 {
   box-shadow: 0 0 15px red;
 
 }
+.scrolltxt {
+  text-align: center;
+  text-wrap: wrap; 
+}
+.ranim {
+  color: #0f0c0c;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
+}
