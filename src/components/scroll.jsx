@@ -1,23 +1,83 @@
 import React from 'react'
+import '../stylesheet/scroll.css'
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 
-const txt = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus';
+
+
 
 const scroll = () => {
+  const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
+  const FadeUp = batch(Fade(), Sticky(), Move())
 
 
   return (
     <>
       <div className='about-title'>
-        <h2>Abaut</h2>
+        <h2 className='scrotitl'>Abaut</h2>
 
-        <h3>Here we Start whit Framer Motion animacion...</h3>
-        <p>{txt}</p>
-        <h3>Here we Start whit Framer Motion animacion...</h3>
-        <p>{txt}</p>
-        <h3>Here we Start whit Framer Motion animacion...</h3>
-        <p>{txt}</p>
-        <h3>Here we Start whit Framer Motion animacion...</h3>
-        <p>{txt}</p>
+
+        <ScrollContainer>
+          <ScrollPage page={0}>
+            <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -200))}>
+              <h3>React - Vite</h3>
+            </Animator>
+          </ScrollPage>
+
+          <ScrollPage page={1}>
+            <Animator animation={ZoomInScrollOut}>
+              <h2>JavaScript</h2>
+            </Animator>
+          </ScrollPage>
+
+
+          <ScrollPage page={2}>
+            <Animator animation={FadeUp}>
+              <h3>HTML & CSS</h3>
+            </Animator>
+          </ScrollPage>
+
+          <ScrollPage page={3}>
+            <div className='scroll-section-3'>
+              <h2>
+                <Animator animation={MoveIn(-500, 0)}>Hy there...</Animator>
+                <Animator animation={MoveIn(500, 0)}> Nice to Meet You</Animator>
+                <Animator animation={MoveOut(500, 0)}> we see us...</Animator>
+                <Animator animation={MoveOut(-500, 0)}> ¡ Have a nice Day ! Enjoy...</Animator>
+              </h2>
+            </div>
+
+          </ScrollPage>
+
+
+          <ScrollPage page={4}>
+            <div className='scroll-section-4'>
+              <h2>
+                <Animator animation={MoveIn(-500, 0)}>Hy there...</Animator>
+              </h2>
+              <p><Animator animation={MoveOut(500, 0)}> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis optio accusantium accusamus dignissimos velit qui nam odit facilis, ipsa illum similique debitis cum laudantium tempora quidem repellendus atque sint voluptas!</Animator></p>
+              <h2>
+                <Animator animation={ZoomOut(0, 10)}> we see us...</Animator>
+              </h2>
+              
+            
+            </div>
+
+          </ScrollPage>
+          <ScrollPage page={5}>
+            <div className='scroll-section-5'>
+                <h2>
+                <Animator animation={Move(1000, 0)}> ¡ Have a nice Day ! Enjoy...</Animator>
+                <p><Animator animation={MoveOut(-500, 0)}> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis optio accusantium accusamus dignissimos velit qui nam odit facilis!</Animator></p>
+              </h2>
+            </div>
+
+          </ScrollPage>
+
+        </ScrollContainer>
+
+
+
+
 
       </div>
 

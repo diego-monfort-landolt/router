@@ -8,7 +8,6 @@ import { motion } from "framer-motion"
 import Details from './Details';
 import Card from '../components/Card';
 import Typewriter from 'typewriter-effect';
-
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 
