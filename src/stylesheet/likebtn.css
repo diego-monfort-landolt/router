@@ -3,11 +3,13 @@
   justify-content: center;
   align-items: center;
   margin: 20px;
+  
 }
 .likbtn {
   width: 20px;
   align-items: center;
   color: red;
+  margin: 5px;
 }
 .like-button {
   border: none; 
@@ -42,4 +44,21 @@
      padding: 8px 16px;
      border-width: 1px;
   }
+}
+
+.otherbtn button {
+  width: 20%;
+  padding: 10px;
+  background-color: #000;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  margin: 10px;
+  box-shadow: 1px 1px 15px #fff;
+
+}
+
+.otherbtn button:hover {
+  border: 1px solid orange;
 }
