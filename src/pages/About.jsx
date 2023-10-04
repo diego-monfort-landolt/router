@@ -1,6 +1,7 @@
 import React from 'react'
 import '../stylesheet/abaout.css';
 import Scroll from '../components/scroll'
+import Cards from '../components/Cards'
 
 const About = () => {
   return (
@@ -9,8 +10,9 @@ const About = () => {
         <Scroll />
 
 
-
+<Cards />
       </div>
+      
 
 
     </>

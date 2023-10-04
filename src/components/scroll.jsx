@@ -1,6 +1,7 @@
 import React from 'react'
 import '../stylesheet/scroll.css'
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
+import Cards from './Cards'
 
 
 
@@ -39,40 +40,14 @@ const scroll = () => {
           <ScrollPage page={3}>
             <div className='scroll-section-3'>
               <h2>
-                <Animator animation={MoveIn(-500, 0)}>Hy there...</Animator>
-                <Animator animation={MoveIn(500, 0)}> Nice to Meet You</Animator>
-                <Animator animation={MoveOut(500, 0)}> we see us...</Animator>
-                <Animator animation={MoveOut(-500, 0)}> ¡ Have a nice Day ! Enjoy...</Animator>
+                <Animator animation={MoveIn(-1000, 0)}>Hy there...</Animator>
+                <Animator animation={MoveIn(1000, 0)}> Nice to Meet You</Animator>
+                <Animator animation={MoveOut(1000, 0)}> we see us...</Animator>
+                <Animator animation={MoveOut(-1000, 0)}> ¡ Have a nice Day ! Enjoy...</Animator>
               </h2>
             </div>
 
           </ScrollPage>
-
-
-          <ScrollPage page={4}>
-            <div className='scroll-section-4'>
-              <h2>
-                <Animator animation={MoveIn(-500, 0)}>Hy there...</Animator>
-              </h2>
-              <p><Animator animation={MoveOut(500, 0)}> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis optio accusantium accusamus dignissimos velit qui nam odit facilis, ipsa illum similique debitis cum laudantium tempora quidem repellendus atque sint voluptas!</Animator></p>
-              <h2>
-                <Animator animation={ZoomOut(0, 10)}> we see us...</Animator>
-              </h2>
-              
-            
-            </div>
-
-          </ScrollPage>
-          <ScrollPage page={5}>
-            <div className='scroll-section-5'>
-                <h2>
-                <Animator animation={Move(1000, 0)}> ¡ Have a nice Day ! Enjoy...</Animator>
-                <p><Animator animation={MoveOut(-500, 0)}> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis optio accusantium accusamus dignissimos velit qui nam odit facilis!</Animator></p>
-              </h2>
-            </div>
-
-          </ScrollPage>
-
         </ScrollContainer>
 
 

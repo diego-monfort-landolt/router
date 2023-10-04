@@ -9,6 +9,7 @@ import Details from './Details';
 import Card from '../components/Card';
 import Typewriter from 'typewriter-effect';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import Cards from '../components/Cards'
 
 
 
@@ -60,7 +61,7 @@ const Home = () => {
         </div>
 
 
-
+        <Cards />
 
 
       </div>
