@@ -38,6 +38,7 @@ const Details = () => {
             return (
               <motion.div className='item-imag' key={image}>
                 <img src={image} alt='bilder' />
+                
               </motion.div>
             );
           })}

@@ -9,7 +9,8 @@ import Details from './Details';
 import Card from '../components/Card';
 import Typewriter from 'typewriter-effect';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import Cards from '../components/Cards'
+
+
 
 
 
@@ -47,7 +48,6 @@ const Home = () => {
             >Hey there...</motion.h2>
           </div>
         </div>
-
         <Details />
         <Card />
         <div className="scrolltxt">
@@ -61,7 +61,7 @@ const Home = () => {
         </div>
 
 
-        <Cards />
+
 
 
       </div>

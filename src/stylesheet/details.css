@@ -1,15 +1,18 @@
 .Section-details {
-  width: 100%;
+  left: 35%;
+  text-align: center;
+  width: 90%;
   padding: 20px;
- background-color:red;
- box-shadow: 5px 5px 15px #000;
- margin-bottom: 20px;
-
+  background-color:red;
+  box-shadow: 5px 5px 15px #000;
+  margin-bottom: 20px;
+  transform: rotate(-5deg);
+  margin-top: -15px;
 }
 .container-details
 {
   
-  padding-top: 80px;
+  padding-top: 70px;
  
 }
 
