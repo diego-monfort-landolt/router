@@ -10,14 +10,7 @@ import Card from '../components/Card';
 import Typewriter from 'typewriter-effect';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-
-
-
-
-
 const Home = () => {
-
-
   return (
     <>
       <div className='container-main'>
@@ -59,11 +52,6 @@ const Home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus similique placeat sint hic maxime, cumque qui vitae magni consequuntur saepe rem molestiae et non nesciunt minima rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsum dolor! Minus </p>
 
         </div>
-
-
-
-
-
       </div>
 
 

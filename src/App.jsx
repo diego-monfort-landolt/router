@@ -5,12 +5,7 @@ import Details from "./pages/Details";
 
 import header from './images/bg.png'
 
-
-
-
 function App() {
-
-
   return (
     <>
       <header>

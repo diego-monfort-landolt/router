@@ -4,8 +4,6 @@ import { AiFillLike } from "react-icons/ai";
 import { AiFillDislike } from "react-icons/ai";
 
 
-
-
 const LikeBtn = () => {
   const [likes, setLikes] = useState(10);
   const [liked, setLiked] = useState(false);
@@ -45,15 +43,8 @@ const LikeBtn = () => {
       }
     }
   }
-
-
-
-
-
-
   return (
     <>
-
       <div className='contbtn'><button
         className={`like-button ${liked ? 'liked' : ''}`}
         onClick={() => {
@@ -66,16 +57,10 @@ const LikeBtn = () => {
       </button>
 
         <div className='otherbtn'>
-
           <button onClick={likef} className={[likeactive ? 'active-like' : null, 'button'].join(' ')} ><AiFillLike className='likbtn' />{like} </button>
           <button onClick={dislikef} className={[dislikeactive ? 'active-disLike' : null, 'button'].join(' ')}><AiFillDislike className='likbtn' />{disLike} </button>
-
         </div>
-
-
       </div>
-
-
     </>
   )
 }

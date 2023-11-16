@@ -9,14 +9,9 @@ const About = () => {
     <>
       <div className='about-container'>
         <Scroll />
-
-
-<Cards />
-<LikeBtn />
+        <Cards />
+        <LikeBtn />
       </div>
-      
-
-
     </>
   )
 }

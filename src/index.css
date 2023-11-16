@@ -30,8 +30,6 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #000;
-  
-  
 }
 .container-logo h1 {
   color: #fff;
@@ -81,7 +79,6 @@ a {
   padding-bottom: 30px;
 }
 
-
 @media (max-width: 418px) {
  
   .container-logo h1 {
@@ -90,8 +87,7 @@ a {
     font-size: 15px;
     margin-left: 5px;
     font-style: italic;
-    transform: rotate(-10deg);
-   
+    transform: rotate(-10deg);  
   }
   
   .container-logo img {
@@ -109,7 +105,6 @@ a {
     width: 100%;
     padding-right: 20px;
    
-   
   }
   nav li{
     list-style: none;
@@ -123,8 +118,6 @@ a {
     color: #fff;
     padding: 5px;
     cursor: pointer;
-  }
-  
-
+  } 
 }
 
